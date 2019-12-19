@@ -42,6 +42,7 @@
         "xtree": "cpp",
         "algorithm": "cpp",
         "iterator": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "cctype": "cpp"
     }
 }

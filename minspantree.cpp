@@ -133,7 +133,7 @@ class Teams
             }
             p -> next = new element(node_name);
             p -> next -> next = NULL;
-        }
+        }   
 
         element* getNode(std::string node_name)
         {
@@ -215,10 +215,6 @@ int main()
 
     std::ifstream file;
     file.open("input.txt");
-    file.seekg (0, std::ios::end);
-
-    int INPUT_STRING_MAX = file.tellg(); --INPUT_STRING_MAX;
-    file.seekg(0, std::ios::beg);
     
     std::string input_string, temp, temp_name1, temp_name2;
     while (file >> temp)
